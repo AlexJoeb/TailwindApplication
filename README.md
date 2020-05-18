@@ -24,4 +24,6 @@ I wouldn't say there are any specific technologies that I am betting on, but I a
 
 Yes! I don't consider myself I a designer but I am constantly looking at new trends - and simple just what looks good. With my experience in React, I would be estatic to lead the way on transforming Tailwind UI to React friendly "grab-and-go" components.
 
-A React Component that I could see be useful is a navigation bar that allows the customers to easily make sub-navigation menus.
+The two Tailwind UI components below are made dynamic with React with the code in this repository.
+
+![Tailwind UI Components](https://i.imgur.com/VjUjBVb)
