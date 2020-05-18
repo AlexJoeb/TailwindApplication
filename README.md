@@ -2,13 +2,9 @@
 
 Greetings from Burnsville, Minnesota, USA!
 
-## About Myself.
-
 I'm Alexander Besse; but you can call me *Xander*. I'm transitioning careers from public safety to software engineering. I've finished Team Treehouse's Front-End and Full-Stack Techdegree courses. I am currently enrolled Lambda School, and working on the back-end development portion of Lambda School.
 
 My GitHub can be found [here](https://github.com/AlexJoeb)!
-
-<!-- On March 29th, without any prior knowledge, I learned about Tailwind CSS & UI. After seeing the design and the ingenuity that Tailwind UI could brought, I quickly picked up a copy of the Marketing and Application UI. -->
 
 > Tells us why we're a great fit for each other, and what you see the future being like if we work together.
 
