@@ -26,4 +26,4 @@ Yes! I don't consider myself I a designer but I am constantly looking at new tre
 
 The two Tailwind UI components below are made dynamic with React with the code in this repository.
 
-![Tailwind UI Components](https://i.imgur.com/VjUjBVb)
+![Tailwind UI Components](Example.png)
