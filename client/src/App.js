@@ -1,26 +1,55 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
 
-function App() {
+import TailwindStats from './Components/TailwindStats';
+import TailwindStatsBrandIcon from './Components/TailwindStatsBrandIcon';
+
+import { ReactComponent as StatLogo } from './Assets/SVGs/Stat.svg';
+
+export default function App() {
+
+  const [basicStats, setBasicStats] = useState([
+    {
+      title: "Total Subscribers",
+      text: "71,897",
+    },
+    {
+      title: 'Avg. Open Rate',
+      text: '58.16%',
+    },
+    {
+      title: 'Avg. Click Rate',
+      text: '24.57%',
+    }
+  ]);
+
+  const [advStats, setAdvStats] = useState([
+    {
+      logo: StatLogo,
+      title: "Total Subscribers",
+      text: "71,897",
+      percent: 122,
+      link: "http://www.google.com"
+    },
+    {
+      logo: StatLogo,
+      title: 'Avg. Open Rate',
+      text: '58.16%',
+      percent: 5.4,
+      link: "http://www.google.com"
+    },
+    {
+      logo: StatLogo,
+      title: 'Avg. Click Rate',
+      text: '24.57%',
+      percent: -3.2,
+      link: "http://www.google.com"
+    }
+  ]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='w-screen h-screen bg-gray-200'>
+        <TailwindStats stats={basicStats} title='Last 30 days' />
+        <TailwindStatsBrandIcon stats={advStats} title='Last 30 days' />
     </div>
-  );
+  )
 }
-
-export default App;
