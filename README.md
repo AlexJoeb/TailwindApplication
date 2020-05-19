@@ -24,6 +24,6 @@ I wouldn't say there are any specific technologies that I am betting on, but I a
 
 Yes! I don't consider myself I a designer but I am constantly looking at new trends - and simple just what looks good. With my experience in React, I would be estatic to lead the way on transforming Tailwind UI to React friendly "grab-and-go" components.
 
-The two Tailwind UI components below are made dynamic with React with the code in this repository. All the user has to provide is a list of data and a title. See for yourself in [this file!](https://github.com/AlexJoeb/TailwindApplication/blob/master/client/src/App.js)
+The two Tailwind UI components below are made dynamic with React with the code in this repository. All the user has to provide is a list of data and a title. See for yourself in [this file!](https://github.com/AlexJoeb/TailwindApplication/blob/master/client/src/App.js) The two React components can be found [here.](https://github.com/AlexJoeb/TailwindApplication/tree/master/client/src/Components)
 
 ![Tailwind UI Components](Example.png)
